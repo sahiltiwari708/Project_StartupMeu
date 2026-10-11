@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/sahiltiwari708/Project_StartupMeu#readme",
+  "bugs": {
+    "url": "https://github.com/sahiltiwari708/Project_StartupMeu/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahiltiwari708/Project_StartupMeu.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --openssl-legacy-provider index.js",
+    "dev": "nodemon --openssl-legacy-provider index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.7",
+    "express": "^5.3.0",
+    "mongoose": "^9.11.1",
+    "nodemon": "^3.1.14"
+  }
+}
